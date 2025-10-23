@@ -16,7 +16,7 @@ accountCity = "Jaipur";
 // console.log(accountId);
 console.table([accountId,accountEmail,accountPassword,accountCity,accountState]);
 
-/* there are two ways in whihc to declare variables and the difference between esach lies in their scope(ie  in what part of the program they can be used and modified depending on where they are declared)
+/* there are two ways in whihc to declare variables and the difference between each lies in their scope(ie  in what part of the program they can be used and modified depending on where they are declared)
 var can be used outside of the {} block scope in which it was declared, ie it is not block scoped
 there was a problem in js as js didn't know what scope was, this caused confusion in the early days. since chnaging var in one place chnaged it in many other places where the chnage was not intended, hence let was introduced in js, let is block scoped and is safer to use
 nowadays it is insisted upon to never use var when you want to create a variable, only use let for variables and const for constants
@@ -24,3 +24,5 @@ decalring a varibale without var let and const will technically work but it's wr
 DON'T USE VAR IN JS BECAUSE OF BLOCK SCOPE AND FUNCTION SCOPE
 */
 // value accountState(declared but not initialized) is undefined
+
+//an identifier is a unique case sensitive name given to a varaiable function or property. in js identifiers can containe $, _, and digits along with alphabets but may not start with digits. 
